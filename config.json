@@ -1,0 +1,32 @@
+{
+        "port": 8888,
+        "autorecconnect": true,
+        "reconndelay": 1000,
+        "reconnamount": 1000,
+
+        "debug": false,
+        "loglevel": 1,
+        "logfile": "server.log",
+
+        "mongoip": "127.0.0.1",
+        "mongoport": 27017,
+        "mongodatabase": "multi",
+        "authentication": false,
+        "httpsecure": false,
+        "guest": false,
+        "sessioncookieid": "webgmeSid",
+        "sessioncookiesecret": "meWebGMEez",
+
+        "paths": {
+            },
+        "pluginBasePaths": [
+               "./node_modules/webgme/src/plugin/coreplugins",
+               "./src/plugins/test_plugin"
+            ],
+        "decoratorpaths": [],
+        "visualizerDescriptors": [],
+        "addonBasePaths": [],
+        "rextrast": {},
+
+        "storageKeyType": "asmSHA1"
+}
